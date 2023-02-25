@@ -1,0 +1,24 @@
+{
+    "server": {
+        "port": 3000,
+        "host": ""
+    },
+    "github": {
+        "token": "your token here"
+    },
+    "routes": {
+        "ExtendedHTTP": {
+            "repo": "username/repo-name",
+            "files": {
+                "version": {
+                    "path": "__ExtendedHTTP.version.txt",
+                    "type": "raw"
+                },
+                "main": {
+                    "path": "__ExtendedHTTP.lua",
+                    "type": "raw"
+                }
+            }
+        }
+    }
+}
