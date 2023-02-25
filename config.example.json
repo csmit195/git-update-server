@@ -7,15 +7,15 @@
         "token": "your token here"
     },
     "routes": {
-        "ExtendedHTTP": {
-            "repo": "username/repo-name",
+        "SecretProject": {
+            "repo": "exampleuser/example-repo/example-branch",
             "files": {
                 "version": {
-                    "path": "__ExtendedHTTP.version.txt",
+                    "path": "script.version.txt",
                     "type": "raw"
                 },
                 "main": {
-                    "path": "__ExtendedHTTP.lua",
+                    "path": "index.js",
                     "type": "raw"
                 }
             }
